@@ -1,0 +1,154 @@
+﻿<!-- <html>
+<head>
+	<title>Kelvin to Celsius</title>
+	<center><h1>Temperature convert</h1></center>
+</head>
+<body background="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDm1pou5m2UoM_v0AKy3Yh9vvoGImC3VayVXTfZ8E3IYGwZaYJwA">
+	<center><img src="https://s-media-cache-ak0.pinimg.com/736x/ab/66/a7/ab66a7c07b73b81d0687f9331968a98f.jpg"  style="width:250px;height:250px;">
+	</center>
+
+
+	<center><br>
+	<form action="/add" method="post">
+		Celsius  : <input type="number" name="kelvin"/><br/><br>
+	<button type="submit" >Kelvin</button></center>
+	</form>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<title>Convert</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card-2">
+    <a href="#home" class="w3-bar-item w3-button"><b>Convert</b> Temperature</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#contact" class="w3-bar-item w3-button">Calculate</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Celsius to Fahrenheit</div>
+        <img src="http://pad3.whstatic.com/images/thumb/6/6f/Convert-Between-Fahrenheit-and-Celsius-Step-1-Version-2.jpg/728px-Convert-Between-Fahrenheit-and-Celsius-Step-1-Version-2.jpg.webp" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Celsius to Kelvin</div>
+        <img src="http://pad1.whstatic.com/images/thumb/a/aa/Convert-Between-Fahrenheit-and-Celsius-Step-7-Version-2.jpg/728px-Convert-Between-Fahrenheit-and-Celsius-Step-7-Version-2.jpg.webp" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Kelvin to Fahrenheit</div>
+        <img src="http://pad2.whstatic.com/images/thumb/2/29/Convert-Between-Fahrenheit-and-Celsius-Step-11-Version-2.jpg/728px-Convert-Between-Fahrenheit-and-Celsius-Step-11-Version-2.jpg.webp" alt="House" style="width:100%">
+      </div>
+    </div>
+    
+  </div>
+
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p><td>สเกลอุณหภูมิ</p>
+    <p><td> องศาฟาเรนไฮต์
+
+            ในปี ค.ศ.1714 กาเบรียล ฟาเรนไฮต์ (Gabrial Fahrenheit) นักฟิสิกส์ชาวเยอรมันได้ประดิษฐ์เทอร์มอมิเตอร์ซึ่งบรรจุปรอทไว้ในหลอดแก้ว เขาพยายามทำให้ปรอทลดต่ำสุด (0°F) โดยใช้น้ำแข็งและเกลือผสมน้ำ เขาพิจารณาจุดหลอมละลายของน้ำแข็งเท่ากับ 32°F และจุดเดือดของน้ำเท่ากับ 212°F</td></p>
+
+           <p><td>องศาเซลเซียส
+
+            ในปี ค.ศ.1742 แอนเดอส์ เซลเซียส (Anders Celsius) นักดาราศาสตร์ชาวสวีเดน ได้ออกแบบสเกลเทอร์มอมิเตอร์ให้อ่านได้ง่ายขึ้น โดยมีจุดหลอมละลายของน้ำแข็งเท่ากับ 0°C และจุดเดือดของน้ำเท่ากับ 100°C</td></p>
+
+          <p><td> องศาเคลวิน (องศาสัมบูรณ์) 
+
+            ต่อมาในคริสศตวรรษที่ 19 ลอร์ด เคลวิน (Lord Kelvin) นักฟิสิกส์ชาวอังกฤษ ผู้ค้นพบความ
+
+สัมพันธ์ระหว่างความร้อนและอุณหภูมิว่า ณ อุณหภูมิ -273°C อะตอมของสสารจะไม่มีการเคลื่อนที่ และ
+
+จะไม่มีสิ่งใดหนาวเย็นไปกว่านี้ได้อีก เขาจึงกำหนดให้ 0 K = -273°C (ไม่ต้องใช้เครื่องหมาย ° กำกับ
+
+หน้าอักษร K) สเกลองศาสัมบูรณ์หรือเคลวิน เช่นเดียวกับองศาเซลเซียสทุกประการ เพียงแต่ +273 
+
+เข้าไปเมื่อต้องการเปลี่ยนเคลวินเป็นเซลเซียส</td>
+    </p>
+
+  </div>
+
+
+ 
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Calculate</h3>
+    
+    <!-- <form action="/action_page.php" target="_blank">
+      <input class="w3-input" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form> -->
+    <p> Celsius to Kelvin formula °C + 273 = °K<br>
+      Celsius to Fahrenheit formula °C  x 9/5 + 32 = °F<br>
+      Kelvin to Fahrenheit formula °K x 1.8 - 459 = °F<br>
+    </p>
+    <form action="/add" method="post">
+    Celsius  : <input type="number" name="kelvin"/>
+  <button type="submit" >Kelvin</button></center>
+  </form><br>
+
+  <form action="/add1" method="post">
+    Celsius  : <input type="number" name="kelvin1"/>
+    <button type="submit" >Fahrenheit</button></center>
+  </form><br>
+
+  <form action="/add2" method="post">
+    Kelvin  :  <input type="number" name="kelvin2"/>
+  <button type="submit" >Fahrenheit</button></center>
+  </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Google Map -->
+<div id="googleMap" class="w3-grayscale" style="width:100%;height:450px;"></div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by 5635512023 & 5635512078 <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green"></a></p>
+</footer>
+
+</body>
+</html>
